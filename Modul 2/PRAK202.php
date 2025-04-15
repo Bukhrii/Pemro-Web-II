@@ -1,4 +1,4 @@
-<b?php 
+<?php 
     $nama = $nim = $jenisKelamin = "";
     $namaErr = $nimErr = $jenisKelaminErr = "";
             if(isset($_POST['submit'])) {
