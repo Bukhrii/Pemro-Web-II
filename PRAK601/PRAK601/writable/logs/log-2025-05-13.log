@@ -1,0 +1,205 @@
+CRITICAL - 2025-05-13 12:41:41 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, array given
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\Router.php on line 487.
+ 1 SYSTEMPATH\Router\Router.php(487): str_contains([...], '::')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 13:33:01 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, array given
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\Router.php on line 487.
+ 1 SYSTEMPATH\Router\Router.php(487): str_contains([...], '::')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 13:33:09 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, array given
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\Router.php on line 487.
+ 1 SYSTEMPATH\Router\Router.php(487): str_contains([...], '::')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 13:41:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/beranda.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/beranda.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('layout/beranda', [], true)
+ 3 APPPATH\Controllers\Page.php(14): view('layout/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 13:41:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/beranda.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/beranda.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('layout/beranda', [], true)
+ 3 APPPATH\Controllers\Page.php(14): view('layout/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 13:49:44 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, array given
+[Method: GET, Route: beranda]
+in SYSTEMPATH\Router\Router.php on line 487.
+ 1 SYSTEMPATH\Router\Router.php(487): str_contains([...], '::')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('beranda')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 13:58:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/beranda.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/beranda.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('layout/beranda', [], true)
+ 3 APPPATH\Controllers\Page.php(14): view('layout/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 13:58:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/beranda.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/beranda.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('layout/beranda', [], true)
+ 3 APPPATH\Controllers\Page.php(14): view('layout/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 14:16:45 --> ErrorException: Undefined variable $nama
+[Method: GET, Route: profil]
+in APPPATH\Views\pages\profil.php on line 12.
+ 1 APPPATH\Views\pages\profil.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\profil.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/profil', [], true)
+ 5 APPPATH\Controllers\Page.php(22): view('pages/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->profil()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 14:16:58 --> ErrorException: Undefined variable $nama
+[Method: GET, Route: profil]
+in APPPATH\Views\pages\profil.php on line 12.
+ 1 APPPATH\Views\pages\profil.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\profil.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/profil', [], true)
+ 5 APPPATH\Controllers\Page.php(22): view('pages/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->profil()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 14:17:00 --> ErrorException: Undefined variable $nama
+[Method: GET, Route: /]
+in APPPATH\Views\pages\beranda.php on line 12.
+ 1 APPPATH\Views\pages\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 5 APPPATH\Controllers\Page.php(14): view('pages/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 14:17:05 --> ErrorException: Undefined variable $nama
+[Method: GET, Route: /]
+in APPPATH\Views\pages\beranda.php on line 12.
+ 1 APPPATH\Views\pages\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 5 APPPATH\Controllers\Page.php(14): view('pages/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 14:17:38 --> ErrorException: Undefined variable $nama
+[Method: GET, Route: /]
+in APPPATH\Views\pages\beranda.php on line 12.
+ 1 APPPATH\Views\pages\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 5 APPPATH\Controllers\Page.php(14): view('pages/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 14:17:51 --> ErrorException: Undefined variable $nama
+[Method: GET, Route: /]
+in APPPATH\Views\pages\beranda.php on line 12.
+ 1 APPPATH\Views\pages\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 5 APPPATH\Controllers\Page.php(14): view('pages/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
+CRITICAL - 2025-05-13 14:22:41 --> ErrorException: Undefined variable $nama
+[Method: GET, Route: /]
+in APPPATH\Views\pages\beranda.php on line 12.
+ 1 APPPATH\Views\pages\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\app\\Views\\pages\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 5 APPPATH\Controllers\Page.php(14): view('pages/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Praktikum-Pemro\\PRAK601\\PRAK601\\public\\index.php')
